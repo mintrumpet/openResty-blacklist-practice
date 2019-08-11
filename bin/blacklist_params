@@ -1,0 +1,8 @@
+set $redis_service "127.0.0.1";
+set $redis_port 6380;
+set $redis_db 0;
+# 1 second 50 query
+set $black_count 50;
+set $black_rule_unit_time 1;
+set $black_ttl 3600;
+set $auto_blacklist_key blackkey;
